@@ -1,0 +1,10 @@
+project_id = "iqzkkatrnlhfciiosatw"
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.get-cart]
+verify_jwt = true
+
+[functions.update-inventory]
+verify_jwt = true

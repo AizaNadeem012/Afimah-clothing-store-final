@@ -1,0 +1,30 @@
+/* Elegant rose gold stroke */
+.stroke-text {
+    -webkit-text-stroke: 1.5px #b76e79; /* Rose gold outline */
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  /* Subtle rose-gold glow effect */
+  .glow-text {
+    text-shadow: 0 0 10px rgba(183, 110, 121, 0.6),
+                 0 0 20px rgba(255, 192, 203, 0.4);
+  }
+  
+  /* Smooth marquee motion */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee 14s linear infinite;
+  }
+  
